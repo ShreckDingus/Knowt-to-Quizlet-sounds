@@ -1,0 +1,13 @@
+{
+	"manifest-version": "3.00",
+	"name": "Knowt to Quizlet sounds",
+	"version": "0.1.0",
+	"content_scripts": [
+		{
+			"matches": [ "https://www.knowt.io/" ],
+			"js": [ "content.js" ]
+		}
+	]
+}
+
+	
